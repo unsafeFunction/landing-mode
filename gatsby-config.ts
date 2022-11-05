@@ -21,7 +21,13 @@ const config: GatsbyConfig = {
         "path": "./src/images/"
       },
       __key: "images"
-    }]
+    }, {
+      resolve: `gatsby-plugin-page-creator`,
+      options: {
+        path: `${__dirname}/src/pages`,
+        ignore: [`**/*.styled.(js|ts)?(x)`],
+      },
+    },]
 };
 
 export default config;
