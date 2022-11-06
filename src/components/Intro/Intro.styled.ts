@@ -6,7 +6,7 @@ const Intro = styled.section`
   flex-direction: column;
   width: 100%;
   overflow: hidden;
-  margin-bottom: 130px;
+  margin-bottom: 100px;
   padding: 0 20px;
 
   @media ${DEVICES.laptop} {
@@ -127,11 +127,15 @@ const IntroImage = styled.img`
   max-width: 750px;
 
   @media ${DEVICES.laptop} {
-    max-width: 600px;
+    max-width: 680px;
   }
 
   @media ${DEVICES.laptopMiddle} {
     max-width: 750px;
+  }
+
+  @media (min-width: 1500px){
+    max-width: 850px;
   }
 `;
 
@@ -144,5 +148,5 @@ export {
   Step,
   IntroImage,
   ImageWrapper,
-  LogoContainer
+  LogoContainer,
 }

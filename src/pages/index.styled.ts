@@ -18,7 +18,7 @@ const GlobalStyles = createGlobalStyle`
     background-color: ${Colors.PageBG};
     margin: 0;
     padding-bottom: 20px;
-    padding-top: 68px;
+    padding-top: 38px;
 
     @media ${DEVICES.laptop} {
       padding-top: 0;

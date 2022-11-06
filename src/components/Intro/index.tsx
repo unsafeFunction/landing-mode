@@ -16,15 +16,27 @@ const Intro = () => {
       <Styled.StepsList>
         <Styled.Step>
           <Styled.StepPointer>1</Styled.StepPointer>
-          <Styled.Step>Tag <b>&nbsp;@shopfromsocial&nbsp;</b> on Insta</Styled.Step>
+          <Styled.Step>
+            <span>
+              <u><b>Find</b></u> a post in Instagram you want to shop.
+            </span>
+          </Styled.Step>
         </Styled.Step>
         <Styled.Step>
           <Styled.StepPointer>2</Styled.StepPointer>
-          <Styled.Step>Recieve a personalised product list in your DMs.</Styled.Step>
+          <Styled.Step>
+            <span>
+              <b><u>Tag</u></b> our account <b>&nbsp;@shopfromsocial&nbsp;</b> underneath
+            </span>
+          </Styled.Step>
         </Styled.Step>
         <Styled.Step>
           <Styled.StepPointer>3</Styled.StepPointer>
-          <Styled.Step>Shop similar items from hundreds of brands in one simple checkout.</Styled.Step>
+          <Styled.Step>
+            <span>
+              <u><b>Buy</b></u> similar items from hundreds of top brands in one simple checkout.
+            </span>
+          </Styled.Step>
         </Styled.Step>
       </Styled.StepsList>
     </Styled.Intro>
