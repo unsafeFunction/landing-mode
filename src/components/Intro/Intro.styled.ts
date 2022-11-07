@@ -26,6 +26,16 @@ const IntroImages = styled.div`
   }
 `;
 
+const LogoLine = styled.img`
+  width: 100%;
+  height: 100%;
+  max-width: 150px;
+
+  @media ${DEVICES.laptop} {
+    max-width: unset;
+  }
+`;
+
 const Logo = styled.img`
   width: 100%;
   height: 100%;
@@ -33,19 +43,9 @@ const Logo = styled.img`
   max-height: 112px;
 
   @media ${DEVICES.laptop} {
-    max-width: 302px;
-    max-height: 238px;
-
-    &:first-child {
-      width: 100%;
-      max-width: unset;
-    }
-
-    &:last-child {
-      max-width: 150px;
-      margin-left: auto;
-      margin-top: 10px;
-    }
+    max-width: 150px;
+    margin-left: auto;
+    margin-top: 10px;
   }
 `;
 
@@ -56,11 +56,14 @@ const LogoNameContainer = styled.div`
 
 const LogoText = styled.p`
   margin-bottom: 10px;
-  font-size: 70px;
+  font-size: 40px;
   font-weight: 600;
-  line-height: 60px;
-  letter-spacing: 0em;
-  text-align: left;
+  line-height: 40px;
+
+  @media ${DEVICES.laptop} {
+    font-size: 70px;
+    line-height: 60px;
+  }
 `;
 
 const LogoContainer = styled.div`
@@ -111,7 +114,7 @@ const StepPointer = styled.div`
   justify-content: center;
   width: 25px;
   height: 20px;
-  margin-right: 27px;
+  margin-right: 10px;
   margin-top: 2px;
   background: black;
   border-radius: 20px;
@@ -169,5 +172,6 @@ export {
   ImageWrapper,
   LogoContainer,
   LogoNameContainer,
-  LogoText
+  LogoText,
+  LogoLine
 }

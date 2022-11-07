@@ -14,8 +14,8 @@ const Intro = () => {
               <br />
               SOCIAL
             </Styled.LogoText>
+            <Styled.LogoLine src="./logo-line.svg" alt="logo line" />
           </Styled.LogoNameContainer>
-          <Styled.Logo src="./logo-line.svg" alt="logo line" />
           <Styled.Logo src="./mode-logo.svg" alt="mode-logo" />
         </Styled.LogoContainer>
         <Styled.ImageWrapper>
