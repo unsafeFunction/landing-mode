@@ -57,7 +57,7 @@ const LogoNameContainer = styled.div`
 const LogoText = styled.p`
   margin-bottom: 10px;
   font-size: 40px;
-  font-weight: 600;
+  font-weight: 800;
   line-height: 40px;
 
   @media ${DEVICES.laptop} {
