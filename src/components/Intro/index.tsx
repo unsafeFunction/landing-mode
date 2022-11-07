@@ -6,7 +6,16 @@ const Intro = () => {
     <Styled.Intro>
       <Styled.IntroImages>
         <Styled.LogoContainer>
-          <Styled.Logo src="./logo.svg" alt="logo" />
+          <Styled.LogoNameContainer>
+            <Styled.LogoText>
+              SHOP
+              <br />
+              <em>from</em>
+              <br />
+              SOCIAL
+            </Styled.LogoText>
+          </Styled.LogoNameContainer>
+          <Styled.Logo src="./logo-line.svg" alt="logo line" />
           <Styled.Logo src="./mode-logo.svg" alt="mode-logo" />
         </Styled.LogoContainer>
         <Styled.ImageWrapper>

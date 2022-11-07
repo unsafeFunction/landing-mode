@@ -36,12 +36,31 @@ const Logo = styled.img`
     max-width: 302px;
     max-height: 238px;
 
+    &:first-child {
+      width: 100%;
+      max-width: unset;
+    }
+
     &:last-child {
       max-width: 150px;
       margin-left: auto;
       margin-top: 10px;
     }
   }
+`;
+
+const LogoNameContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
+
+const LogoText = styled.p`
+  margin-bottom: 10px;
+  font-size: 70px;
+  font-weight: 600;
+  line-height: 60px;
+  letter-spacing: 0em;
+  text-align: left;
 `;
 
 const LogoContainer = styled.div`
@@ -149,4 +168,6 @@ export {
   IntroImage,
   ImageWrapper,
   LogoContainer,
+  LogoNameContainer,
+  LogoText
 }
